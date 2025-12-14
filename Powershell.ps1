@@ -1,0 +1,7 @@
+$client = New-Object System.Net.Sockets.TcpClient("192.168.1.222", 5000)
+$stream = $client.GetStream()
+$writer = New-Object System.IO.StreamWriter($stream)
+$writer.WriteLine("test")
+$writer.Flush()
+$writer.Close()
+$client.Close()
