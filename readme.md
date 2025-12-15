@@ -68,7 +68,7 @@ vPilot → VPilothomekitconnector → TCP → Raspberry Pi → Homebridge → Ho
 
 \## 📁 Configuration
 
-
+Paste the dll in the vpilot plugin folder
 
 On first run, the plugin creates a config file:
 
@@ -122,7 +122,7 @@ Homebridge receives the message and activates a motion sensor in HomeKit.
 
 
 
-All debug output is sent via `SendDebug()` and visible in the vPilot plugin console.
+All debug output is sent via `SendDebug()` and visible in the vPilot plugin console. Type .debug in the vpilot message window to display
 
 
 
