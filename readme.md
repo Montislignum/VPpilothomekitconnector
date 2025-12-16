@@ -146,7 +146,8 @@ MIT – see \[LICENSE](LICENSE)
 
 
 
-Developed by Jonas  
+Developed by Montislignum
+Please support me if you like the plugin
 
 Built to integrate vPilot with HomeKit via TCP and Homebridge
 
